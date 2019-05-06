@@ -29,7 +29,7 @@ crossSbtVersions := List("0.13.18", "1.2.8")
 
 releaseCrossBuild := true
 
-releasePublishArtifactsAction := PgpKeys.publishSigned.value
+//releasePublishArtifactsAction := PgpKeys.publishSigned.value
 
 // Testing
 libraryDependencies += "com.lihaoyi" %% "utest" % "0.6.6" % "test"
